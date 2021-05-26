@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/nav_graph"
+    app:startDestination="@id/startFragment">
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.boilerplate.LoginFragment"
+        android:label="LoginFragment" />
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.example.boilerplate.RegistrationFragment"
+        android:label="RegistrationFragment" />
+    <fragment
+        android:id="@+id/eventsFragment"
+        android:name="com.example.boilerplate.EventsFragment"
+        android:label="EventsFragment" />
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.example.boilerplate.StartFragment"
+        android:label="StartFragment" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.example.boilerplate.ProfileFragment"
+        android:label="ProfileFragment" />
+    <fragment
+        android:id="@+id/logoutFragment"
+        android:name="com.example.boilerplate.LogoutFragment"
+        android:label="LogoutFragment" />
+</navigation>
